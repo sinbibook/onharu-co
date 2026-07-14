@@ -1578,14 +1578,14 @@ body {
 }
 
 .con12 {
-  padding-top: 240px;
-  padding-bottom: 200px;
+  padding-top: 140px;
+  padding-bottom: 140px;
   text-align: center;
 }
 @media (max-width: 1440px) {
   .con12 {
-    padding-top: 110px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
 }
 .con12 .tx0 {

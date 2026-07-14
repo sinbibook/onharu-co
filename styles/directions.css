@@ -85,14 +85,14 @@
 
 
 .con12 {
-  padding-top: 240px;
-  padding-bottom: 200px;
+  padding-top: 140px;
+  padding-bottom: 140px;
   text-align: center;
 }
 @media (max-width: 1440px) {
   .con12 {
-    padding-top: 110px;
-    padding-bottom: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
   }
 }
 .con12 .tx0 {
@@ -150,12 +150,10 @@
 
 
 .con14 {
-  padding-top: 80px;
   padding-bottom: 80px;
 }
 @media (max-width: 1440px) {
   .con14 {
-    padding-top: 50px;
     padding-bottom: 50px;
   }
 }
