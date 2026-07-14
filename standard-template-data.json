@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.10.0",
-    "generatedAt": "2026-07-14T03:00:02.910373031Z",
+    "version": "1.11.0",
+    "generatedAt": "2026-07-14T03:00:46.831439755Z",
     "templateType": "trip_l",
     "propertyId": "d7cc2947-8744-4e34-ac08-fe100d9bf567",
     "homepageId": "c18f2b14-16f5-49b6-b7d4-f559ad5632a4"
@@ -815,6 +815,26 @@
               {
                 "hero": {
                   "title": "여유로운 공간에서 즐기는 식사 시간은\n단순한 한 끼를 넘어 특별한 기억으로 남습니다.\n편안한 분위기 속에서 온전한 시간을 보내보세요.\n\n ※ 자세한 내용은 이용안내 페이지 참고 부탁드립니다.\n\n",
+                  "images": [ ]
+                },
+                "about": {
+                  "title": "",
+                  "images": [ ]
+                },
+                "experience": {
+                  "features": [ ],
+                  "additionalInfos": [ ],
+                  "benefits": [ ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "31d12c77-a27d-4092-9b3e-8f5a2cd31ba8",
+            "sections": [
+              {
+                "hero": {
+                  "title": "맛있는 식사와 다양한 즐길 거리가 어우러져\n머무는 시간까지 더욱 특별한 추억으로 이어집니다.\n\n ※ 자세한 내용은 이용안내 페이지 참고 부탁드립니다.\n",
                   "images": [ ]
                 },
                 "about": {
