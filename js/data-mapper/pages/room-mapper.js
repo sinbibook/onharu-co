@@ -32,7 +32,7 @@ var RoomMapper = {
     this.mapCon7Text(data, rt);
 
     // MAPPER: 다른 객실 미리보기 (roomtypes[] thumbnail + name)
-    this.mapRoomPreview(data, rt);
+    this.mapRoomPreview(data);
 
     // MAPPER: roomtypes[] (snb_wrap)
     this.mapRoomNavigation(data, rt);
@@ -183,12 +183,13 @@ var RoomMapper = {
     // tx4: NOTICE — 하드코딩 (매핑 삭제)
     // "※ 자세한 내용은 이용안내 페이지 참고 부탁드립니다." (room.html에 직접 작성)
 
-    // 오른쪽 이미지 (con6 .right .img img) - roomtype interior[0]
+    // 오른쪽 이미지 (con6 .right .img img) - roomtype interior[2] (3번째 이미지)
     var interior = this.getCategoryImages(rt, 'roomtype_interior');
+    var rightInterior = interior[2];
     var rightImg = document.querySelector('.con6 .right .img img');
-    if (rightImg && interior[0] && interior[0].url) {
-      rightImg.src = interior[0].url;
-      rightImg.alt = interior[0].description || name;
+    if (rightImg && rightInterior && rightInterior.url) {
+      rightImg.src = rightInterior.url;
+      rightImg.alt = rightInterior.description || name;
     } else if (rightImg) {
       ImageHelpers.applyPlaceholder(rightImg);
     }
@@ -272,26 +273,20 @@ var RoomMapper = {
     });
   },
 
-  // Con3: 다른 객실 미리보기 (roomtypes[] thumbnail + name, 현재 제외)
-  mapRoomPreview: function(data, currentRt) {
+  // Con3: 객실 미리보기 (roomtypes[] thumbnail + name, 현재 객실 포함 전체 노출)
+  mapRoomPreview: function(data) {
     var wrapper = document.querySelector('.con3 .swiper-wrapper');
     if (!wrapper) return;
 
     var roomtypes = this.getRoomtypes(data);
     var rooms = (data && data.rooms) || [];
-    var currentId = currentRt && currentRt.id;
     var self = this;
-
-    // 현재 객실만 제외 (이름 없어도 fallback으로 노출)
-    var others = roomtypes.filter(function(rt) {
-      return rt.id !== currentId;
-    });
 
     wrapper.innerHTML = '';
 
-    if (others.length === 0) return;
+    if (roomtypes.length === 0) return;
 
-    others.forEach(function(rt) {
+    roomtypes.forEach(function(rt) {
       var slide = document.createElement('div');
       slide.className = 'swiper-slide';
 
