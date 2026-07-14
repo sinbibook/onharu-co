@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.19.0",
-    "generatedAt": "2026-07-14T05:00:32.718607965Z",
+    "version": "1.20.0",
+    "generatedAt": "2026-07-14T05:11:11.931714088Z",
     "templateType": "trip_l",
     "propertyId": "d7cc2947-8744-4e34-ac08-fe100d9bf567",
     "homepageId": "c18f2b14-16f5-49b6-b7d4-f559ad5632a4"
@@ -369,7 +369,16 @@
             "blockId": null
           }
         ],
-        "surrounding": [ ],
+        "surrounding": [
+          {
+            "id": "90308c5d-78db-43b0-a191-b0e97f2fb517",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/d7cc2947-8744-4e34-ac08-fe100d9bf567/surrounding/1784005779312-9egmn2v5iy.jpg",
+            "sortOrder": 0,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          }
+        ],
         "commonArea": [ ]
       }
     ]
@@ -1038,7 +1047,7 @@
                 "description": ""
               },
               "gallery": {
-                "title": "여행의 즐거움을 더하는 공간",
+                "title": "준비된 공간",
                 "images": [ ],
                 "videos": [ ],
                 "mediaType": "image",
