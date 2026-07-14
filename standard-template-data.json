@@ -1,4 +1,489 @@
 {
+  "metadata": {
+    "version": "1.3.0",
+    "generatedAt": "2026-07-14T02:38:49.934048193Z",
+    "templateType": "trip_l",
+    "propertyId": "d7cc2947-8744-4e34-ac08-fe100d9bf567",
+    "homepageId": "c18f2b14-16f5-49b6-b7d4-f559ad5632a4"
+  },
+  "property": {
+    "id": "d7cc2947-8744-4e34-ac08-fe100d9bf567",
+    "name": "가평 온하루펜션",
+    "nameEn": "Gapyeong Onharu Pension",
+    "description": "탁 트인 가평의 풍경과 맑은 계곡, 프라이빗 바베큐가 어우러진 공간에서 사랑하는 사람들과 여유롭고 특별한 하루를 완성해 보세요.",
+    "subtitle": "",
+    "address": "경기 가평군 북면 가화로 1720-23 가평 온하루펜션",
+    "latitude": 37.9100664869136,
+    "longitude": 127.495728746567,
+    "contactPhone": "010-3086-3365",
+    "contactEmail": "",
+    "checkin": "14:00",
+    "checkout": "12:00",
+    "checkInOutInfo": "[입퇴실안내]\n- 입실: 14시 00분\n- 퇴실: 12시 00분\n- 입실 마감시간: 23시 00분",
+    "usageGuide": "[입퇴실안내]\n- 입실: 14시 00분\n- 퇴실: 12시 00분\n- 입실 마감시간: 23시 00분\n\n[인원추가정보]\n[연령기준]\n- 성인: 18세 이상\n- 아동: 24개월 이상~18세 미만\n- 유아: 24개월 미만\n\n[추가요금]\n- 결제방법: 후결제(현장결제)\n\n[개별바베큐]\n- 이용 객실: 전 객실\n- 이용 장소: 개별 객실 앞\n- 바베큐 형태: 숯불\n- 제공 구성: 숯, 그릴, 채소(상추/깻잎) 등\n※ 펜션 주인이 직접 정성껏 재배한 채소(상추, 깻잎)를 무료로 제공해 드립니다.\n- 이용 요금: 4인 20,000원(1박기준/현장결제)\n- 신청 시간: 제한없음\n- 이용 시간: 제한없음\n- 우천 시: 이용 가능\n- 동계 시: 이용 가능\n- 강풍 시: 이용 불가\n※ 바베큐 이용 시 원활한 준비를 위해 이용 1시간 전까지 사전 요청 부탁드립니다.\n\n[공용수영장]\n- 이용 객실: 전 객실\n- 운영 계절: 하절기\n- 운영 기간: 6월 1일 ~ 9월 30일\n- 온도: 냉수\n- 이용 요금: 무료\n- 이용 시간: 14:00 ~ 22:00\n- 이용 복장: 제한없음\n- 수영장 크기: 4m x 6m\n\n[부대시설]\n[객실에서 즐기는 노래방]\n- 이용 요금: 50,000원 (1박기준/현장결제)\n- 이용 시간: 입실 후 ~ 21:00\n※ 요청 시 이동식 노래방 기기를 객실로 제공해 드립니다.\n※ 이용을 원하시는 경우 펜션으로 문의해 주시기 바랍니다.\n\n[펜션 내 음식점]\n- 메뉴: 백숙, 도리탕. 육개장 등\n※ 식사 이용 관련 사항은 펜션으로 문의해 주시기 바랍니다.\n\n[편의 및 주변 시설]\n- 와이파이 보유\n- 화재감지기 보유\n- 일산화탄소감지기 보유\n- 엘레베이터 미보유\n- 인근 200m 이내 명지산 계곡 (수영, 낚시 가능)\n\n[주차장]\n- 주차장 보유\n- 이용 요금: 무료\n- 주차 대수: 총 10대\n- 전기차 충전기 이용 불가",
+    "reservationGuide": "",
+    "province": "도/시",
+    "city": "시/군/구",
+    "domain": "onharu.co.kr",
+    "realtimeBookingId": "https://www.bookingplay.co.kr/booking/1/12863",
+    "ybsId": "",
+    "amenities": [
+      "흡연구역(지정장소)",
+      "주차장"
+    ],
+    "nearbyAttractions": [
+      "포레스트뷰(산)",
+      "계곡인접"
+    ],
+    "services": [ ],
+    "propertyThemes": [ ],
+    "propertyTypes": [ ],
+    "businessInfo": {
+      "businessName": "온하루",
+      "businessNumber": "598-28-01913",
+      "representativeName": "이영수",
+      "businessAddress": "경기도 가평군 북면 가화로 1720-23",
+      "businessPhone": "",
+      "businessEmail": "lys350412@naver.com",
+      "businessType": "corporate",
+      "businessCategory": "숙박",
+      "eCommerceRegistrationNumber": ""
+    },
+    "contractInfo": {
+      "contractStartDate": "2025-09-10T00:00:00.000Z",
+      "contractEndDate": "2025-09-12T00:00:00.000Z",
+      "contractStatus": "active",
+      "contactName": "담당자명",
+      "contactEmail": "담당자 이메일",
+      "contactPhone": "담당자 전화번호",
+      "paymentTerms": null,
+      "cancellationPolicy": null,
+      "bankName": "은행명",
+      "accountNumber": "계좌번호",
+      "accountHolder": "예금주",
+      "commissionRate": 0,
+      "securityDeposit": 0
+    },
+    "facilities": [
+      {
+        "id": "5992e28f-88fc-4bba-be96-1ec805550cd5",
+        "name": "공용수영장",
+        "description": "햇살 아래에서 가볍게 물에 몸을 맡기며\n여유롭게 흐르는 시간을 느껴보세요.\n시원한 물결 속에서 편안한 휴식을 즐길 수 있습니다.",
+        "usageGuide": "- 이용 객실: 전 객실\n- 운영 계절: 하절기\n- 운영 기간: 6월 1일 ~ 9월 30일\n- 온도: 냉수\n- 이용 요금: 무료\n- 이용 시간: 14:00 ~ 22:00\n- 이용 복장: 제한없음\n- 수영장 크기: 4m x 6m",
+        "displayOrder": 0,
+        "images": [
+          {
+            "id": "0692ba26-05fb-4f38-957d-8f99b51d4880",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/5992e28f-88fc-4bba-be96-1ec805550cd5/main/1783993453551-hzf30t3o7y.jpg",
+            "sortOrder": 0,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "619e996f-6e97-49b7-bc0f-e380e7ab24a5",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/5992e28f-88fc-4bba-be96-1ec805550cd5/main/1783993453794-61d9hr9zfm.jpg",
+            "sortOrder": 1,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "eb5fcde3-c32b-430d-90e3-0cc4e4f9564c",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/5992e28f-88fc-4bba-be96-1ec805550cd5/main/1783993453794-cg488ergwo.jpg",
+            "sortOrder": 2,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "cca1ebd9-3f79-4d76-b48b-88f9fdc397d4",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/5992e28f-88fc-4bba-be96-1ec805550cd5/main/1783993453558-acz3tfgv1f.jpg",
+            "sortOrder": 3,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "2769d9d0-daab-4941-ac89-6e3eccd6d000",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/5992e28f-88fc-4bba-be96-1ec805550cd5/main/1783993453562-hcd4e77kvv.jpg",
+            "sortOrder": 4,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          }
+        ]
+      },
+      {
+        "id": "7732b955-3358-4312-b716-d602192010d1",
+        "name": "개별바베큐",
+        "description": "여유로운 공간에서 즐기는 식사 시간은\n단순한 한 끼를 넘어 특별한 기억으로 남습니다.\n편안한 분위기 속에서 온전한 시간을 보내보세요.",
+        "usageGuide": "- 이용 객실: 전 객실\n- 이용 장소: 개별 객실 앞\n- 바베큐 형태: 숯불\n- 제공 구성: 숯, 그릴, 채소(상추/깻잎) 등\n※ 펜션 주인이 직접 정성껏 재배한 채소(상추, 깻잎)를 무료로 제공해 드립니다.\n- 이용 요금: 4인 20,000원(1박기준/현장결제)\n- 신청 시간: 제한없음\n- 이용 시간: 제한없음\n- 우천 시: 이용 가능\n- 동계 시: 이용 가능\n- 강풍 시: 이용 불가\n※ 바베큐 이용 시 원활한 준비를 위해 이용 1시간 전까지 사전 요청 부탁드립니다.",
+        "displayOrder": 1,
+        "images": [
+          {
+            "id": "0f1e4595-0cc9-47bf-b3f6-77c9535f1be5",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/7732b955-3358-4312-b716-d602192010d1/main/1783993455825-goflve4w4s.jpg",
+            "sortOrder": 0,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "c3579bcd-7dd5-4075-bfa9-2bf55611c4c5",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/7732b955-3358-4312-b716-d602192010d1/main/1783993455819-y0hkfj6z2u.jpg",
+            "sortOrder": 1,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "b68865ad-417d-4596-9899-b7514d29b668",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/7732b955-3358-4312-b716-d602192010d1/main/1783993455826-mwx0yoc33c.jpg",
+            "sortOrder": 2,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          }
+        ]
+      },
+      {
+        "id": "31d12c77-a27d-4092-9b3e-8f5a2cd31ba8",
+        "name": "부대시설",
+        "description": "맛있는 식사와 다양한 즐길 거리가 어우러져\n머무는 시간까지 더욱 특별한 추억으로 이어집니다.",
+        "usageGuide": "[객실에서 즐기는 노래방]\n- 이용 요금: 50,000원 (1박기준/현장결제)\n- 이용 시간: 입실 후 ~ 21:00\n※ 요청 시 이동식 노래방 기기를 객실로 제공해 드립니다.\n※ 이용을 원하시는 경우 펜션으로 문의해 주시기 바랍니다.\n\n[펜션 내 음식점]\n- 메뉴: 백숙, 도리탕. 육개장 등\n※ 식사 이용 관련 사항은 펜션으로 문의해 주시기 바랍니다.",
+        "displayOrder": 2,
+        "images": [
+          {
+            "id": "936a673e-84b3-41e1-97db-3da2b9841329",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/31d12c77-a27d-4092-9b3e-8f5a2cd31ba8/main/1783993457916-0bhflo9pc6.jpg",
+            "sortOrder": 0,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "5a468bd2-676e-42c2-864b-fe752340ea49",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/31d12c77-a27d-4092-9b3e-8f5a2cd31ba8/main/1783993457921-bw20eq0cul.jpg",
+            "sortOrder": 1,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "092ed831-7c94-4d33-92b6-c08a145ad931",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/31d12c77-a27d-4092-9b3e-8f5a2cd31ba8/main/1783993457915-n0jpfnlv61.jpg",
+            "sortOrder": 2,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "47dad08f-66af-411b-b2ad-a4723f3ca96d",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/31d12c77-a27d-4092-9b3e-8f5a2cd31ba8/main/1783993457923-5x5ft9zmwr.jpg",
+            "sortOrder": 3,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          }
+        ]
+      },
+      {
+        "id": "da2185b1-3a7f-4e28-a08b-4bf77eb0364c",
+        "name": "편의 및 주변 시설",
+        "description": "머무는 모든 순간이 편안하게 이어질 수 있도록\n세심한 준비로 공간의 완성도를 더했습니다.\n부담 없이 쉬어갈 수 있는 시간을 제공합니다.",
+        "usageGuide": "- 와이파이 보유\n- 화재감지기 보유\n- 일산화탄소감지기 보유\n- 엘레베이터 미보유\n- 인근 200m 이내 명지산 계곡 (수영, 낚시 가능)",
+        "displayOrder": 3,
+        "images": [
+          {
+            "id": "f6b6155f-0187-4896-98ce-b04cef7665ce",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/da2185b1-3a7f-4e28-a08b-4bf77eb0364c/main/1783993456831-ae8g754cqv.jpg",
+            "sortOrder": 0,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "2edf0dab-95ec-4cb0-abb1-6c3bf837ab08",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/da2185b1-3a7f-4e28-a08b-4bf77eb0364c/main/1783993456840-uhx3r9bxn3.jpg",
+            "sortOrder": 1,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "bb488a6e-9e78-4213-a791-18bf4767c512",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/da2185b1-3a7f-4e28-a08b-4bf77eb0364c/main/1783993456829-93kgsbszua.jpg",
+            "sortOrder": 2,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "d7c3dbb7-4353-488f-8491-5d30480bb523",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/da2185b1-3a7f-4e28-a08b-4bf77eb0364c/main/1783993456856-rylhcey96x.jpg",
+            "sortOrder": 3,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "838a96b7-360a-471b-b433-b56841e6fad1",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/da2185b1-3a7f-4e28-a08b-4bf77eb0364c/main/1783993456830-wvnfxnlg4w.jpg",
+            "sortOrder": 4,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "483cc91c-c217-43a8-820c-68457016b712",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/da2185b1-3a7f-4e28-a08b-4bf77eb0364c/main/1783993456853-059piyamxr.jpg",
+            "sortOrder": 5,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          }
+        ]
+      }
+    ],
+    "refundPolicies": [
+      {
+        "refundProcessingDays": 10,
+        "refundRate": 100
+      },
+      {
+        "refundProcessingDays": 9,
+        "refundRate": 90
+      },
+      {
+        "refundProcessingDays": 8,
+        "refundRate": 80
+      },
+      {
+        "refundProcessingDays": 7,
+        "refundRate": 70
+      },
+      {
+        "refundProcessingDays": 6,
+        "refundRate": 60
+      },
+      {
+        "refundProcessingDays": 5,
+        "refundRate": 50
+      },
+      {
+        "refundProcessingDays": 4,
+        "refundRate": 40
+      },
+      {
+        "refundProcessingDays": 3,
+        "refundRate": 30
+      },
+      {
+        "refundProcessingDays": 2,
+        "refundRate": 20
+      },
+      {
+        "refundProcessingDays": 1,
+        "refundRate": 10
+      },
+      {
+        "refundProcessingDays": 0,
+        "refundRate": 0
+      }
+    ],
+    "refundSettings": {
+      "customerRefundNotice": "",
+      "immediateRefundEnabled": true,
+      "immediateRefundTimeLimit": "60",
+      "immediateRefundMinuteLimit": "10",
+      "sameDayReservationHourLimit": "0"
+    },
+    "images": [
+      {
+        "thumbnail": [ ],
+        "exterior": [ ],
+        "surrounding": [ ],
+        "commonArea": [ ]
+      }
+    ]
+  },
+  "rooms": [
+    {
+      "id": "c0ef986b-42eb-4923-ae70-f5bc6e24d132",
+      "name": "일반실 1(개별 바베큐)",
+      "description": "독채형, 거실1+침대룸(퀸침대1)+침대룸(퀸침대1)+주방1+화장실1\r\n산전망, 20평\r\n욕실용품,남녀공용,TV,금연,냉장고,에어컨,전기밥솥,취사시설/도구,타월,단체,드라이기,가족실,화재 감지기,일산화탄소 감지기,식탁",
+      "roomInfo": "",
+      "usageGuide": "",
+      "group": null,
+      "size": 66.12,
+      "baseOccupancy": 4,
+      "maxOccupancy": 10,
+      "totalRoomCount": {
+        "bedroom": 2,
+        "bathroom": 1,
+        "livingRoom": 1,
+        "ondol": 0,
+        "kitchen": 1
+      },
+      "bedTypes": [
+        "퀸 베드"
+      ],
+      "bedConfigs": [
+        {
+          "roomIndex": 1,
+          "roomKind": "bedroom",
+          "bedCount": {
+            "double": 0,
+            "single": 0,
+            "bunkBed": 0,
+            "queen": 1,
+            "king": 0,
+            "family": 0,
+            "sofaBed": 0,
+            "beddingSet": 0
+          }
+        },
+        {
+          "roomIndex": 2,
+          "roomKind": "bedroom",
+          "bedCount": {
+            "double": 0,
+            "single": 0,
+            "bunkBed": 0,
+            "queen": 1,
+            "king": 0,
+            "family": 0,
+            "sofaBed": 0,
+            "beddingSet": 0
+          }
+        }
+      ],
+      "amenities": [
+        "식탁",
+        "일산화탄소 감지기",
+        "화재 감지기",
+        "가족실",
+        "헤어드라이어",
+        "단체",
+        "수건",
+        "취사시설/도구",
+        "전기밥솥",
+        "에어컨",
+        "냉장고",
+        "금연",
+        "TV",
+        "남녀공용",
+        "욕실용품"
+      ],
+      "roomViews": [
+        "마운틴뷰"
+      ],
+      "roomStructures": [
+        "독채"
+      ],
+      "status": "active",
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "14:00",
+        "checkout": "12:00",
+        "checkinDeadline": "23:00"
+      },
+      "roomOptions": {
+        "petState": "N",
+        "poolState": "Y",
+        "barbecueState": "Y"
+      },
+      "images": [
+        {
+          "thumbnail": [ ],
+          "interior": [ ],
+          "exterior": [ ]
+        }
+      ],
+      "displayOrder": 1
+    },
+    {
+      "id": "2b5810fe-fc6e-446f-b84d-02f3ae2cfca0",
+      "name": "일반실 2(개별 바베큐)",
+      "description": "독채형, 거실1+침대룸(퀸침대1)+침대룸(퀸침대1)+주방1+화장실1\r\n산전망, 20평\r\n욕실용품,남녀공용,TV,금연,냉장고,에어컨,전기밥솥,취사시설/도구,타월,단체,드라이기,가족실,화재 감지기,일산화탄소 감지기,식탁",
+      "roomInfo": "",
+      "usageGuide": "",
+      "group": null,
+      "size": 49.59,
+      "baseOccupancy": 2,
+      "maxOccupancy": 6,
+      "totalRoomCount": {
+        "bedroom": 1,
+        "bathroom": 1,
+        "livingRoom": 1,
+        "ondol": 0,
+        "kitchen": 1
+      },
+      "bedTypes": [
+        "퀸 베드"
+      ],
+      "bedConfigs": [
+        {
+          "roomIndex": 1,
+          "roomKind": "bedroom",
+          "bedCount": {
+            "double": 0,
+            "single": 0,
+            "bunkBed": 0,
+            "queen": 1,
+            "king": 0,
+            "family": 0,
+            "sofaBed": 0,
+            "beddingSet": 0
+          }
+        }
+      ],
+      "amenities": [
+        "식탁",
+        "일산화탄소 감지기",
+        "화재 감지기",
+        "가족실",
+        "헤어드라이어",
+        "단체",
+        "수건",
+        "취사시설/도구",
+        "전기밥솥",
+        "에어컨",
+        "냉장고",
+        "금연",
+        "TV",
+        "남녀공용",
+        "욕실용품"
+      ],
+      "roomViews": [
+        "마운틴뷰"
+      ],
+      "roomStructures": [
+        "독채"
+      ],
+      "status": "active",
+      "timeSettings": {
+        "timeSettingType": "property",
+        "checkin": "14:00",
+        "checkout": "12:00",
+        "checkinDeadline": "23:00"
+      },
+      "roomOptions": {
+        "petState": "N",
+        "poolState": "Y",
+        "barbecueState": "Y"
+      },
+      "images": [
+        {
+          "thumbnail": [ ],
+          "interior": [ ],
+          "exterior": [ ]
+        }
+      ],
+      "displayOrder": 2
+    }
+  ],
   "homepage": {
     "id": "c18f2b14-16f5-49b6-b7d4-f559ad5632a4",
     "domain": "onharu.co.kr",
@@ -32,123 +517,6 @@
     },
     "customFields": {
       "pages": {
-        "main": {
-          "sections": [
-            {
-              "hero": {
-                "title": "",
-                "images": [
-                  {
-                    "id": "e842eee8-6b43-4576-9e89-16481e9e6038",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995037-qaxu1y3062.jpg",
-                    "sortOrder": 0,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "a6a313bb-63f9-4ee4-b199-78644db480e5",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995561-yrwiwgocxm.jpg",
-                    "sortOrder": 1,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "c289428c-bf5d-4f32-9353-1f0a371c9889",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995739-eofagob17a.jpg",
-                    "sortOrder": 2,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "5aacc59d-5964-48d2-a108-e89560168382",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995228-ddakugdf0u.jpg",
-                    "sortOrder": 3,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "b5e9757c-1e12-417b-87e4-faa09b5e5698",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995160-i16ts0dvtn.jpg",
-                    "sortOrder": 4,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "a11abef7-0a5c-4b08-9523-be5bde028993",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995994861-jda8lvxm3z.jpg",
-                    "sortOrder": 5,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "328c4ca3-09b0-4e97-9258-eaf3c492b090",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995994858-ycgu2g7jow.jpg",
-                    "sortOrder": 6,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "e78a58d1-fffd-4e42-99d2-8d9c8f1d12df",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995842-3fjbjiamcc.jpg",
-                    "sortOrder": 7,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "36e2bb96-03f1-44e3-a3d3-337cbdba5a43",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995835-o76nrlcqqe.jpg",
-                    "sortOrder": 8,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "c954d6ff-03c3-4152-bdd9-01a322bdbb62",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995994663-dlb107wf3n.jpg",
-                    "sortOrder": 9,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "a9fd44a1-8668-46b2-bba8-7cfcca45ad15",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995324-gtsuixmqc3.jpg",
-                    "sortOrder": 10,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  },
-                  {
-                    "id": "74ab6b1e-108e-4b90-912f-fa4206b13336",
-                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995621-j51zd2g1as.jpg",
-                    "sortOrder": 11,
-                    "description": "",
-                    "isSelected": true,
-                    "blockId": null
-                  }
-                ],
-                "description": ""
-              },
-              "about": [
-                {
-                  "title": "",
-                  "images": [ ],
-                  "blockId": "5443a568-6caf-49c2-8a02-ccd0d3d980a1",
-                  "description": ""
-                }
-              ]
-            }
-          ]
-        },
-        "room": [ ],
         "index": {
           "sections": [
             {
@@ -280,24 +648,6 @@
             }
           ]
         },
-        "facility": [ ],
-        "layoutMap": {
-          "sections": [
-            {
-              "hero": {
-                "title": "",
-                "images": [ ],
-                "description": ""
-              },
-              "about": {
-                "title": "",
-                "images": [ ],
-                "description": ""
-              },
-              "enabled": false
-            }
-          ]
-        },
         "directions": {
           "sections": [
             {
@@ -321,6 +671,124 @@
             }
           ]
         },
+        "main": {
+          "sections": [
+            {
+              "hero": {
+                "title": "",
+                "images": [
+                  {
+                    "id": "e842eee8-6b43-4576-9e89-16481e9e6038",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995037-qaxu1y3062.jpg",
+                    "sortOrder": 0,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "a6a313bb-63f9-4ee4-b199-78644db480e5",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995561-yrwiwgocxm.jpg",
+                    "sortOrder": 1,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "c289428c-bf5d-4f32-9353-1f0a371c9889",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995739-eofagob17a.jpg",
+                    "sortOrder": 2,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "5aacc59d-5964-48d2-a108-e89560168382",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995228-ddakugdf0u.jpg",
+                    "sortOrder": 3,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "b5e9757c-1e12-417b-87e4-faa09b5e5698",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995160-i16ts0dvtn.jpg",
+                    "sortOrder": 4,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "a11abef7-0a5c-4b08-9523-be5bde028993",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995994861-jda8lvxm3z.jpg",
+                    "sortOrder": 5,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "328c4ca3-09b0-4e97-9258-eaf3c492b090",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995994858-ycgu2g7jow.jpg",
+                    "sortOrder": 6,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "e78a58d1-fffd-4e42-99d2-8d9c8f1d12df",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995842-3fjbjiamcc.jpg",
+                    "sortOrder": 7,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "36e2bb96-03f1-44e3-a3d3-337cbdba5a43",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995835-o76nrlcqqe.jpg",
+                    "sortOrder": 8,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "c954d6ff-03c3-4152-bdd9-01a322bdbb62",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995994663-dlb107wf3n.jpg",
+                    "sortOrder": 9,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "a9fd44a1-8668-46b2-bba8-7cfcca45ad15",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995324-gtsuixmqc3.jpg",
+                    "sortOrder": 10,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  },
+                  {
+                    "id": "74ab6b1e-108e-4b90-912f-fa4206b13336",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995621-j51zd2g1as.jpg",
+                    "sortOrder": 11,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  }
+                ],
+                "description": ""
+              },
+              "about": [
+                {
+                  "title": "",
+                  "images": [ ],
+                  "blockId": "5443a568-6caf-49c2-8a02-ccd0d3d980a1",
+                  "description": ""
+                }
+              ]
+            }
+          ]
+        },
+        "room": [ ],
+        "facility": [ ],
         "reservation": {
           "sections": [
             {
@@ -348,6 +816,23 @@
               "enabled": false
             }
           ]
+        },
+        "layoutMap": {
+          "sections": [
+            {
+              "hero": {
+                "title": "",
+                "images": [ ],
+                "description": ""
+              },
+              "about": {
+                "title": "",
+                "images": [ ],
+                "description": ""
+              },
+              "enabled": false
+            }
+          ]
         }
       },
       "popup": {
@@ -355,6 +840,12 @@
       },
       "theme": {
         "font": {
+          "koMain": {
+            "cdn": "https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css",
+            "key": "pretendard",
+            "woff2": null,
+            "family": "Pretendard"
+          },
           "koSub": {
             "cdn": "https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css",
             "key": "pretendard",
@@ -366,12 +857,6 @@
             "key": "cormorant",
             "woff2": null,
             "family": "Cormorant"
-          },
-          "koMain": {
-            "cdn": "https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css",
-            "key": "pretendard",
-            "woff2": null,
-            "family": "Pretendard"
           }
         },
         "color": {
@@ -380,6 +865,8 @@
         }
       },
       "property": {
+        "name": "가평 온하루펜션",
+        "nameEn": "Gapyeong Onharu Pension",
         "images": [
           {
             "id": "f33635dd-f6f8-4378-b7f1-ce995a99c9b6",
@@ -498,9 +985,7 @@
             "blockId": null,
             "category": "property_exterior"
           }
-        ],
-        "name": "가평 온하루펜션",
-        "nameEn": "Gapyeong Onharu Pension"
+        ]
       },
       "roomtypes": [
         {
@@ -839,471 +1324,5 @@
         }
       ]
     }
-  },
-  "property": {
-    "id": "d7cc2947-8744-4e34-ac08-fe100d9bf567",
-    "name": "가평 온하루펜션",
-    "nameEn": "Gapyeong Onharu Pension",
-    "description": "탁 트인 가평의 풍경과 맑은 계곡, 프라이빗 바베큐가 어우러진 공간에서 사랑하는 사람들과 여유롭고 특별한 하루를 완성해 보세요.",
-    "subtitle": "",
-    "address": "경기 가평군 북면 가화로 1720-23 가평 온하루펜션",
-    "latitude": 37.9100664869136,
-    "longitude": 127.495728746567,
-    "contactPhone": "010-3086-3365",
-    "contactEmail": "",
-    "checkin": "14:00",
-    "checkout": "12:00",
-    "checkInOutInfo": "[입퇴실안내]\n- 입실: 14시 00분\n- 퇴실: 12시 00분\n- 입실 마감시간: 23시 00분",
-    "usageGuide": "[입퇴실안내]\n- 입실: 14시 00분\n- 퇴실: 12시 00분\n- 입실 마감시간: 23시 00분\n\n[인원추가정보]\n[연령기준]\n- 성인: 18세 이상\n- 아동: 24개월 이상~18세 미만\n- 유아: 24개월 미만\n\n[추가요금]\n- 결제방법: 후결제(현장결제)\n\n[개별바베큐]\n- 이용 객실: 전 객실\n- 이용 장소: 개별 객실 앞\n- 바베큐 형태: 숯불\n- 제공 구성: 숯, 그릴, 채소(상추/깻잎) 등\n※ 펜션 주인이 직접 정성껏 재배한 채소(상추, 깻잎)를 무료로 제공해 드립니다.\n- 이용 요금: 4인 20,000원(1박기준/현장결제)\n- 신청 시간: 제한없음\n- 이용 시간: 제한없음\n- 우천 시: 이용 가능\n- 동계 시: 이용 가능\n- 강풍 시: 이용 불가\n※ 바베큐 이용 시 원활한 준비를 위해 이용 1시간 전까지 사전 요청 부탁드립니다.\n\n[공용수영장]\n- 이용 객실: 전 객실\n- 운영 계절: 하절기\n- 운영 기간: 6월 1일 ~ 9월 30일\n- 온도: 냉수\n- 이용 요금: 무료\n- 이용 시간: 14:00 ~ 22:00\n- 이용 복장: 제한없음\n- 수영장 크기: 4m x 6m\n\n[부대시설]\n[객실에서 즐기는 노래방]\n- 이용 요금: 50,000원 (1박기준/현장결제)\n- 이용 시간: 입실 후 ~ 21:00\n※ 요청 시 이동식 노래방 기기를 객실로 제공해 드립니다.\n※ 이용을 원하시는 경우 펜션으로 문의해 주시기 바랍니다.\n\n[펜션 내 음식점]\n- 메뉴: 백숙, 도리탕. 육개장 등\n※ 식사 이용 관련 사항은 펜션으로 문의해 주시기 바랍니다.\n\n[편의 및 주변 시설]\n- 와이파이 보유\n- 화재감지기 보유\n- 일산화탄소감지기 보유\n- 엘레베이터 미보유\n- 인근 200m 이내 명지산 계곡 (수영, 낚시 가능)\n\n[주차장]\n- 주차장 보유\n- 이용 요금: 무료\n- 주차 대수: 총 10대\n- 전기차 충전기 이용 불가",
-    "reservationGuide": "",
-    "domain": "onharu.co.kr",
-    "realtimeBookingId": "https://www.bookingplay.co.kr/booking/1/12863",
-    "ybsId": "",
-    "amenities": [
-      "흡연구역(지정장소)",
-      "주차장"
-    ],
-    "nearbyAttractions": [
-      "포레스트뷰(산)",
-      "계곡인접"
-    ],
-    "services": [ ],
-    "propertyThemes": [ ],
-    "propertyTypes": [ ],
-    "businessInfo": {
-      "businessName": "온하루",
-      "businessNumber": "598-28-01913",
-      "representativeName": "이영수",
-      "businessAddress": "경기도 가평군 북면 가화로 1720-23",
-      "businessPhone": "",
-      "businessEmail": "lys350412@naver.com",
-      "businessType": "corporate",
-      "businessCategory": "숙박",
-      "eCommerceRegistrationNumber": ""
-    },
-    "facilities": [
-      {
-        "id": "5992e28f-88fc-4bba-be96-1ec805550cd5",
-        "name": "공용수영장",
-        "description": "햇살 아래에서 가볍게 물에 몸을 맡기며\n여유롭게 흐르는 시간을 느껴보세요.\n시원한 물결 속에서 편안한 휴식을 즐길 수 있습니다.",
-        "usageGuide": "- 이용 객실: 전 객실\n- 운영 계절: 하절기\n- 운영 기간: 6월 1일 ~ 9월 30일\n- 온도: 냉수\n- 이용 요금: 무료\n- 이용 시간: 14:00 ~ 22:00\n- 이용 복장: 제한없음\n- 수영장 크기: 4m x 6m",
-        "displayOrder": 0,
-        "images": [
-          {
-            "id": "0692ba26-05fb-4f38-957d-8f99b51d4880",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/5992e28f-88fc-4bba-be96-1ec805550cd5/main/1783993453551-hzf30t3o7y.jpg",
-            "sortOrder": 0,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "619e996f-6e97-49b7-bc0f-e380e7ab24a5",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/5992e28f-88fc-4bba-be96-1ec805550cd5/main/1783993453794-61d9hr9zfm.jpg",
-            "sortOrder": 1,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "eb5fcde3-c32b-430d-90e3-0cc4e4f9564c",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/5992e28f-88fc-4bba-be96-1ec805550cd5/main/1783993453794-cg488ergwo.jpg",
-            "sortOrder": 2,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "cca1ebd9-3f79-4d76-b48b-88f9fdc397d4",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/5992e28f-88fc-4bba-be96-1ec805550cd5/main/1783993453558-acz3tfgv1f.jpg",
-            "sortOrder": 3,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "2769d9d0-daab-4941-ac89-6e3eccd6d000",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/5992e28f-88fc-4bba-be96-1ec805550cd5/main/1783993453562-hcd4e77kvv.jpg",
-            "sortOrder": 4,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          }
-        ]
-      },
-      {
-        "id": "7732b955-3358-4312-b716-d602192010d1",
-        "name": "개별바베큐",
-        "description": "여유로운 공간에서 즐기는 식사 시간은\n단순한 한 끼를 넘어 특별한 기억으로 남습니다.\n편안한 분위기 속에서 온전한 시간을 보내보세요.",
-        "usageGuide": "- 이용 객실: 전 객실\n- 이용 장소: 개별 객실 앞\n- 바베큐 형태: 숯불\n- 제공 구성: 숯, 그릴, 채소(상추/깻잎) 등\n※ 펜션 주인이 직접 정성껏 재배한 채소(상추, 깻잎)를 무료로 제공해 드립니다.\n- 이용 요금: 4인 20,000원(1박기준/현장결제)\n- 신청 시간: 제한없음\n- 이용 시간: 제한없음\n- 우천 시: 이용 가능\n- 동계 시: 이용 가능\n- 강풍 시: 이용 불가\n※ 바베큐 이용 시 원활한 준비를 위해 이용 1시간 전까지 사전 요청 부탁드립니다.",
-        "displayOrder": 1,
-        "images": [
-          {
-            "id": "0f1e4595-0cc9-47bf-b3f6-77c9535f1be5",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/7732b955-3358-4312-b716-d602192010d1/main/1783993455825-goflve4w4s.jpg",
-            "sortOrder": 0,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "c3579bcd-7dd5-4075-bfa9-2bf55611c4c5",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/7732b955-3358-4312-b716-d602192010d1/main/1783993455819-y0hkfj6z2u.jpg",
-            "sortOrder": 1,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "b68865ad-417d-4596-9899-b7514d29b668",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/7732b955-3358-4312-b716-d602192010d1/main/1783993455826-mwx0yoc33c.jpg",
-            "sortOrder": 2,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          }
-        ]
-      },
-      {
-        "id": "31d12c77-a27d-4092-9b3e-8f5a2cd31ba8",
-        "name": "부대시설",
-        "description": "맛있는 식사와 다양한 즐길 거리가 어우러져\n머무는 시간까지 더욱 특별한 추억으로 이어집니다.",
-        "usageGuide": "[객실에서 즐기는 노래방]\n- 이용 요금: 50,000원 (1박기준/현장결제)\n- 이용 시간: 입실 후 ~ 21:00\n※ 요청 시 이동식 노래방 기기를 객실로 제공해 드립니다.\n※ 이용을 원하시는 경우 펜션으로 문의해 주시기 바랍니다.\n\n[펜션 내 음식점]\n- 메뉴: 백숙, 도리탕. 육개장 등\n※ 식사 이용 관련 사항은 펜션으로 문의해 주시기 바랍니다.",
-        "displayOrder": 2,
-        "images": [
-          {
-            "id": "936a673e-84b3-41e1-97db-3da2b9841329",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/31d12c77-a27d-4092-9b3e-8f5a2cd31ba8/main/1783993457916-0bhflo9pc6.jpg",
-            "sortOrder": 0,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "5a468bd2-676e-42c2-864b-fe752340ea49",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/31d12c77-a27d-4092-9b3e-8f5a2cd31ba8/main/1783993457921-bw20eq0cul.jpg",
-            "sortOrder": 1,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "092ed831-7c94-4d33-92b6-c08a145ad931",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/31d12c77-a27d-4092-9b3e-8f5a2cd31ba8/main/1783993457915-n0jpfnlv61.jpg",
-            "sortOrder": 2,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "47dad08f-66af-411b-b2ad-a4723f3ca96d",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/31d12c77-a27d-4092-9b3e-8f5a2cd31ba8/main/1783993457923-5x5ft9zmwr.jpg",
-            "sortOrder": 3,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          }
-        ]
-      },
-      {
-        "id": "da2185b1-3a7f-4e28-a08b-4bf77eb0364c",
-        "name": "편의 및 주변 시설",
-        "description": "머무는 모든 순간이 편안하게 이어질 수 있도록\n세심한 준비로 공간의 완성도를 더했습니다.\n부담 없이 쉬어갈 수 있는 시간을 제공합니다.",
-        "usageGuide": "- 와이파이 보유\n- 화재감지기 보유\n- 일산화탄소감지기 보유\n- 엘레베이터 미보유\n- 인근 200m 이내 명지산 계곡 (수영, 낚시 가능)",
-        "displayOrder": 3,
-        "images": [
-          {
-            "id": "f6b6155f-0187-4896-98ce-b04cef7665ce",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/da2185b1-3a7f-4e28-a08b-4bf77eb0364c/main/1783993456831-ae8g754cqv.jpg",
-            "sortOrder": 0,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "2edf0dab-95ec-4cb0-abb1-6c3bf837ab08",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/da2185b1-3a7f-4e28-a08b-4bf77eb0364c/main/1783993456840-uhx3r9bxn3.jpg",
-            "sortOrder": 1,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "bb488a6e-9e78-4213-a791-18bf4767c512",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/da2185b1-3a7f-4e28-a08b-4bf77eb0364c/main/1783993456829-93kgsbszua.jpg",
-            "sortOrder": 2,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "d7c3dbb7-4353-488f-8491-5d30480bb523",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/da2185b1-3a7f-4e28-a08b-4bf77eb0364c/main/1783993456856-rylhcey96x.jpg",
-            "sortOrder": 3,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "838a96b7-360a-471b-b433-b56841e6fad1",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/da2185b1-3a7f-4e28-a08b-4bf77eb0364c/main/1783993456830-wvnfxnlg4w.jpg",
-            "sortOrder": 4,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          },
-          {
-            "id": "483cc91c-c217-43a8-820c-68457016b712",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/facility/da2185b1-3a7f-4e28-a08b-4bf77eb0364c/main/1783993456853-059piyamxr.jpg",
-            "sortOrder": 5,
-            "description": "",
-            "isSelected": true,
-            "blockId": null
-          }
-        ]
-      }
-    ],
-    "refundPolicies": [
-      {
-        "refundProcessingDays": 10,
-        "refundRate": 100
-      },
-      {
-        "refundProcessingDays": 9,
-        "refundRate": 90
-      },
-      {
-        "refundProcessingDays": 8,
-        "refundRate": 80
-      },
-      {
-        "refundProcessingDays": 7,
-        "refundRate": 70
-      },
-      {
-        "refundProcessingDays": 6,
-        "refundRate": 60
-      },
-      {
-        "refundProcessingDays": 5,
-        "refundRate": 50
-      },
-      {
-        "refundProcessingDays": 4,
-        "refundRate": 40
-      },
-      {
-        "refundProcessingDays": 3,
-        "refundRate": 30
-      },
-      {
-        "refundProcessingDays": 2,
-        "refundRate": 20
-      },
-      {
-        "refundProcessingDays": 1,
-        "refundRate": 10
-      },
-      {
-        "refundProcessingDays": 0,
-        "refundRate": 0
-      }
-    ],
-    "refundSettings": {
-      "customerRefundNotice": "",
-      "immediateRefundEnabled": true,
-      "immediateRefundMinuteLimit": "10",
-      "sameDayReservationHourLimit": "0"
-    },
-    "images": [
-      {
-        "thumbnail": [ ],
-        "exterior": [ ],
-        "surrounding": [ ],
-        "commonArea": [ ]
-      }
-    ]
-  },
-  "rooms": [
-    {
-      "id": "c0ef986b-42eb-4923-ae70-f5bc6e24d132",
-      "name": "일반실 1(개별 바베큐)",
-      "description": "독채형, 거실1+침대룸(퀸침대1)+침대룸(퀸침대1)+주방1+화장실1\r\n산전망, 20평\r\n욕실용품,남녀공용,TV,금연,냉장고,에어컨,전기밥솥,취사시설/도구,타월,단체,드라이기,가족실,화재 감지기,일산화탄소 감지기,식탁",
-      "roomInfo": "",
-      "usageGuide": "",
-      "group": null,
-      "size": 66.12,
-      "baseOccupancy": 4,
-      "maxOccupancy": 10,
-      "totalRoomCount": {
-        "bedroom": 2,
-        "bathroom": 1,
-        "livingRoom": 1,
-        "ondol": 0,
-        "kitchen": 1
-      },
-      "bedTypes": [
-        "퀸 베드"
-      ],
-      "bedConfigs": [
-        {
-          "roomIndex": 1,
-          "roomKind": "bedroom",
-          "bedCount": {
-            "double": 0,
-            "single": 0,
-            "bunkBed": 0,
-            "queen": 1,
-            "king": 0,
-            "family": 0,
-            "sofaBed": 0,
-            "beddingSet": 0
-          }
-        },
-        {
-          "roomIndex": 2,
-          "roomKind": "bedroom",
-          "bedCount": {
-            "double": 0,
-            "single": 0,
-            "bunkBed": 0,
-            "queen": 1,
-            "king": 0,
-            "family": 0,
-            "sofaBed": 0,
-            "beddingSet": 0
-          }
-        }
-      ],
-      "amenities": [
-        "식탁",
-        "일산화탄소 감지기",
-        "화재 감지기",
-        "가족실",
-        "헤어드라이어",
-        "단체",
-        "수건",
-        "취사시설/도구",
-        "전기밥솥",
-        "에어컨",
-        "냉장고",
-        "금연",
-        "TV",
-        "남녀공용",
-        "욕실용품"
-      ],
-      "roomViews": [
-        "마운틴뷰"
-      ],
-      "roomStructures": [
-        "독채"
-      ],
-      "status": "active",
-      "timeSettings": {
-        "timeSettingType": "property",
-        "checkin": "14:00",
-        "checkout": "12:00",
-        "checkinDeadline": "23:00"
-      },
-      "roomOptions": {
-        "petState": "N",
-        "poolState": "Y",
-        "barbecueState": "Y"
-      },
-      "images": [
-        {
-          "thumbnail": [ ],
-          "interior": [ ],
-          "exterior": [ ]
-        }
-      ],
-      "displayOrder": 1
-    },
-    {
-      "id": "2b5810fe-fc6e-446f-b84d-02f3ae2cfca0",
-      "name": "일반실 2(개별 바베큐)",
-      "description": "독채형, 거실1+침대룸(퀸침대1)+침대룸(퀸침대1)+주방1+화장실1\r\n산전망, 20평\r\n욕실용품,남녀공용,TV,금연,냉장고,에어컨,전기밥솥,취사시설/도구,타월,단체,드라이기,가족실,화재 감지기,일산화탄소 감지기,식탁",
-      "roomInfo": "",
-      "usageGuide": "",
-      "group": null,
-      "size": 49.59,
-      "baseOccupancy": 2,
-      "maxOccupancy": 6,
-      "totalRoomCount": {
-        "bedroom": 1,
-        "bathroom": 1,
-        "livingRoom": 1,
-        "ondol": 0,
-        "kitchen": 1
-      },
-      "bedTypes": [
-        "퀸 베드"
-      ],
-      "bedConfigs": [
-        {
-          "roomIndex": 1,
-          "roomKind": "bedroom",
-          "bedCount": {
-            "double": 0,
-            "single": 0,
-            "bunkBed": 0,
-            "queen": 1,
-            "king": 0,
-            "family": 0,
-            "sofaBed": 0,
-            "beddingSet": 0
-          }
-        }
-      ],
-      "amenities": [
-        "식탁",
-        "일산화탄소 감지기",
-        "화재 감지기",
-        "가족실",
-        "헤어드라이어",
-        "단체",
-        "수건",
-        "취사시설/도구",
-        "전기밥솥",
-        "에어컨",
-        "냉장고",
-        "금연",
-        "TV",
-        "남녀공용",
-        "욕실용품"
-      ],
-      "roomViews": [
-        "마운틴뷰"
-      ],
-      "roomStructures": [
-        "독채"
-      ],
-      "status": "active",
-      "timeSettings": {
-        "timeSettingType": "property",
-        "checkin": "14:00",
-        "checkout": "12:00",
-        "checkinDeadline": "23:00"
-      },
-      "roomOptions": {
-        "petState": "N",
-        "poolState": "Y",
-        "barbecueState": "Y"
-      },
-      "images": [
-        {
-          "thumbnail": [ ],
-          "interior": [ ],
-          "exterior": [ ]
-        }
-      ],
-      "displayOrder": 2
-    }
-  ],
-  "metadata": {
-    "generatedAt": "2026-07-14T02:26:40.626880319Z",
-    "propertyId": "d7cc2947-8744-4e34-ac08-fe100d9bf567",
-    "homepageId": "c18f2b14-16f5-49b6-b7d4-f559ad5632a4",
-    "version": "1.2.0"
   }
 }
