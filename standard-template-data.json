@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.22.0",
-    "generatedAt": "2026-07-14T06:17:18.773910066Z",
+    "version": "1.23.0",
+    "generatedAt": "2026-07-14T06:18:00.757266613Z",
     "templateType": "trip_l",
     "propertyId": "d7cc2947-8744-4e34-ac08-fe100d9bf567",
     "homepageId": "c18f2b14-16f5-49b6-b7d4-f559ad5632a4"
@@ -1105,7 +1105,7 @@
                     "id": "e842eee8-6b43-4576-9e89-16481e9e6038",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995037-qaxu1y3062.jpg",
                     "sortOrder": 0,
-                    "description": "",
+                    "description": "머무는 순간",
                     "isSelected": true,
                     "blockId": null
                   },
@@ -1113,7 +1113,7 @@
                     "id": "a6a313bb-63f9-4ee4-b199-78644db480e5",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995561-yrwiwgocxm.jpg",
                     "sortOrder": 1,
-                    "description": "",
+                    "description": "자연 속 하루",
                     "isSelected": true,
                     "blockId": null
                   },
@@ -1121,7 +1121,7 @@
                     "id": "c289428c-bf5d-4f32-9353-1f0a371c9889",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995739-eofagob17a.jpg",
                     "sortOrder": 2,
-                    "description": "",
+                    "description": "여유로운 시간",
                     "isSelected": true,
                     "blockId": null
                   },
