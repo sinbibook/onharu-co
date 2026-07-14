@@ -166,9 +166,9 @@ var HeaderFooterLoader = {
     // con0 Swiper 재초기화 (동적 슬라이드 생성 후)
     var con0Container = document.querySelector('.con0');
     if (con0Container) {
-      var con0Swiper = con0Container.swiper;
-      if (con0Swiper) {
-        con0Swiper.destroy();
+      var con0SwiperEl = con0Container.querySelector('.swiper-container');
+      if (con0SwiperEl && con0SwiperEl.swiper) {
+        con0SwiperEl.swiper.destroy(true, true);
       }
 
       new Swiper(con0Container.querySelector(".swiper-container"), {
@@ -192,9 +192,9 @@ var HeaderFooterLoader = {
 
     // con3 Swiper 파괴 후 재초기화
     if (con3Container) {
-      var con3Swiper = con3Container.swiper;
-      if (con3Swiper) {
-        con3Swiper.destroy();
+      var con3SwiperEl = con3Container.querySelector('.swiper-container');
+      if (con3SwiperEl && con3SwiperEl.swiper) {
+        con3SwiperEl.swiper.destroy(true, true);
       }
 
       new Swiper(con3Container.querySelector(".swiper-container"), {
@@ -214,9 +214,9 @@ var HeaderFooterLoader = {
 
     // con4 Swiper 파괴 후 재초기화
     if (con4Container) {
-      var con4Swiper = con4Container.swiper;
-      if (con4Swiper) {
-        con4Swiper.destroy();
+      var con4SwiperEl = con4Container.querySelector('.swiper-container');
+      if (con4SwiperEl && con4SwiperEl.swiper) {
+        con4SwiperEl.swiper.destroy(true, true);
       }
 
       var slideCount = con4Container.querySelectorAll('.swiper-slide').length;

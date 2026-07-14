@@ -7,30 +7,9 @@ $(document).ready(function () {
 
   // const locomotiveScroll = new LocomotiveScroll();
 
-  // Swiper 초기화 함수
-  function initSwiper(container, options) {
-    if (container.length) {
-      return new Swiper(container.find(".swiper-container")[0], options);
-    }
-  }
-
-  // con0은 header-footer-loader.js에서 동적 슬라이드 생성 후 초기화
-
-  initSwiper($(".con3"), {
-    slidesPerView: 1,
-    loop: $(".con3 .swiper-slide").length > 1, // 슬라이드 부족 시 loop 비활성 (Swiper 경고 방지)
-    effect: "fade",
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false,
-    },
-    navigation: {
-      nextEl: $(".con3 .swiper-button-next")[0],
-      prevEl: $(".con3 .swiper-button-prev")[0],
-    },
-  });
-
-  // con4는 각 mapper (header-footer-loader.js, facility-mapper.js)에서 초기화
+  // con0/con3/con4 Swiper는 동적 슬라이드 생성 후 header-footer-loader.js의
+  // reinitializeSwiper()에서 초기화한다. (document.ready 시점엔 슬라이드가 비어 있어
+  // 빈 컨테이너로 이중 초기화 → autoplay 깜박임 발생하던 버그)
 
   $(".header .btnMenu").on("click", function () {
     $(".header .menu").toggleClass("active");

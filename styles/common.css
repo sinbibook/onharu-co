@@ -1591,12 +1591,12 @@ body {
 .con12 .tx0 {
   display: flex;
   flex-direction: column;
-  font-size: 160px;
+  font-size: 110px;
   color: var(--color-secondary);
 }
 @media (max-width: 1440px) {
   .con12 .tx0 {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 .con12 .tx0 .tx0_1 {
