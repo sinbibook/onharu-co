@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.20.0",
-    "generatedAt": "2026-07-14T05:11:11.931714088Z",
+    "version": "1.21.0",
+    "generatedAt": "2026-07-14T06:16:09.783045526Z",
     "templateType": "trip_l",
     "propertyId": "d7cc2947-8744-4e34-ac08-fe100d9bf567",
     "homepageId": "c18f2b14-16f5-49b6-b7d4-f559ad5632a4"
@@ -371,8 +371,8 @@
         ],
         "surrounding": [
           {
-            "id": "90308c5d-78db-43b0-a191-b0e97f2fb517",
-            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/d7cc2947-8744-4e34-ac08-fe100d9bf567/surrounding/1784005779312-9egmn2v5iy.jpg",
+            "id": "396beb62-068a-4ae1-96c1-8e4158de3768",
+            "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/property/d7cc2947-8744-4e34-ac08-fe100d9bf567/surrounding/1784005885009-ry41ekze28.jpg",
             "sortOrder": 0,
             "description": "",
             "isSelected": true,
@@ -942,7 +942,7 @@
                     "id": "cc77b067-1cab-42d9-b0e3-1e56afae35a5",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/index_hero/1783995995149-2uro9zdl3q.jpg",
                     "sortOrder": 0,
-                    "description": "",
+                    "description": "머무는 순간",
                     "isSelected": true,
                     "blockId": null
                   },
@@ -950,7 +950,7 @@
                     "id": "04886f00-9788-4c3e-b7c7-bf8557f81a63",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/index_hero/1783995995235-7pypntenv0.jpg",
                     "sortOrder": 1,
-                    "description": "머무는 순간",
+                    "description": "자연 속 하루",
                     "isSelected": true,
                     "blockId": null
                   },
@@ -958,7 +958,7 @@
                     "id": "2cb6d377-e082-41fc-87ce-0f4591211c2b",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/index_hero/1783995994943-zekapheai7.jpg",
                     "sortOrder": 2,
-                    "description": "자연 속 하루",
+                    "description": "여유로운 시간",
                     "isSelected": true,
                     "blockId": null
                   },
@@ -966,7 +966,7 @@
                     "id": "ca03d793-cbb6-42d7-ad36-0ae80ef32e89",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/index_hero/1783995995231-vvuovc85nn.jpg",
                     "sortOrder": 3,
-                    "description": "여유로운 시간",
+                    "description": "",
                     "isSelected": true,
                     "blockId": null
                   },
@@ -1055,7 +1055,16 @@
               },
               "signature": {
                 "title": "",
-                "images": [ ],
+                "images": [
+                  {
+                    "id": "1138cb4e-ebe6-47c8-aa31-d2d960204f9e",
+                    "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/index_signature/1784009766566-hjw3o2agj4.jpg",
+                    "sortOrder": 0,
+                    "description": "",
+                    "isSelected": true,
+                    "blockId": null
+                  }
+                ],
                 "videos": [ ],
                 "mediaType": "image",
                 "description": ""
@@ -1282,9 +1291,9 @@
                   "images": [ ]
                 },
                 "experience": {
+                  "benefits": [ ],
                   "features": [ ],
-                  "additionalInfos": [ ],
-                  "benefits": [ ]
+                  "additionalInfos": [ ]
                 }
               }
             ]
@@ -1302,9 +1311,9 @@
                   "images": [ ]
                 },
                 "experience": {
+                  "benefits": [ ],
                   "features": [ ],
-                  "additionalInfos": [ ],
-                  "benefits": [ ]
+                  "additionalInfos": [ ]
                 }
               }
             ]
@@ -1322,9 +1331,9 @@
                   "images": [ ]
                 },
                 "experience": {
+                  "benefits": [ ],
                   "features": [ ],
-                  "additionalInfos": [ ],
-                  "benefits": [ ]
+                  "additionalInfos": [ ]
                 }
               }
             ]
@@ -1342,9 +1351,9 @@
                   "images": [ ]
                 },
                 "experience": {
+                  "benefits": [ ],
                   "features": [ ],
-                  "additionalInfos": [ ],
-                  "benefits": [ ]
+                  "additionalInfos": [ ]
                 }
               }
             ]
