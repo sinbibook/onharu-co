@@ -259,7 +259,7 @@ body {
   }
 }
 .conTitle .title {
-  font-size: 40px;
+  font-size: 34px;
   font-weight: bold;
 }
 @media (max-width: 1440px) {
@@ -326,7 +326,7 @@ body {
   height: 100px;
 }
 .header .logo {
-  width: 120px;
+  width: 160px;
 }
 .header .right {
   display: flex;
@@ -481,7 +481,7 @@ body {
 }
 
 .footer .logo {
-  width: 120px;
+  width: 160px;
   margin-bottom: 20px;
 }
 @media (max-width: 1440px) {
@@ -1414,7 +1414,7 @@ body {
 .con9 .item .top .tx3 {
   margin-top: -60px;
   text-align: right;
-  font-size: 130px;
+  font-size: 100px;
 }
 @media (max-width: 1440px) {
   .con9 .item .top .tx3 {

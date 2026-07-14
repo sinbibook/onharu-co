@@ -396,8 +396,12 @@
 }
 @media (max-width: 1440px) {
   .con5 .img {
-    height: 280px;
+    height: auto;
   }
+}
+.con5 .img img {
+  height: auto;
+  object-fit: initial;
 }
 .con5 .tx {
   font-size: 80px;
