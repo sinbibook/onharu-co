@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.38.0",
-    "generatedAt": "2026-07-14T07:42:38.761778310Z",
+    "version": "1.39.0",
+    "generatedAt": "2026-07-14T07:52:26.016226576Z",
     "templateType": "trip_l",
     "propertyId": "d7cc2947-8744-4e34-ac08-fe100d9bf567",
     "homepageId": "c18f2b14-16f5-49b6-b7d4-f559ad5632a4"
@@ -1610,7 +1610,7 @@
               "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/roomtype_interior/1783995209956-u7z1pq1ztn.jpg",
               "sortOrder": 17,
               "description": "",
-              "isSelected": false,
+              "isSelected": true,
               "blockId": "c0ef986b-42eb-4923-ae70-f5bc6e24d132",
               "category": "roomtype_interior"
             },
