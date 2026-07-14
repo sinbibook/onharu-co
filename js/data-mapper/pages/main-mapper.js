@@ -73,37 +73,34 @@ var MainMapper = {
     }
   },
 
-  // CON1: 숙소 영문명 + 히어로 마지막 이미지 매핑
+  // CON1: 핵심메시지 (index의 signature 블록을 그대로 사용: title + images[isSelected])
   mapCon1Section: function(data) {
-    // 영문명 매핑 (customFields.property.nameEn 우선 → .con1 .tx.travelFont)
-    var engNameEl = document.querySelector('.con1 .tx.travelFont');
-    var nameEn = HeaderFooterMapper.getPropertyNameEn(data);
-    if (engNameEl && nameEn) {
-      engNameEl.textContent = nameEn;
-    }
-
-    // 이미지 매핑 (customFields.pages.main.sections[0].hero.images 마지막 이미지)
     var sections = data.homepage &&
                    data.homepage.customFields &&
                    data.homepage.customFields.pages &&
-                   data.homepage.customFields.pages.main &&
-                   data.homepage.customFields.pages.main.sections;
+                   data.homepage.customFields.pages.index &&
+                   data.homepage.customFields.pages.index.sections;
 
+    var signature = sections && sections[0] && sections[0].signature;
+
+    // 타이틀 매핑 (signature.title → .con1 .tx.travelFont)
+    var titleEl = document.querySelector('.con1 .tx.travelFont');
+    if (titleEl && signature && signature.title) {
+      titleEl.textContent = signature.title;
+    }
+
+    // 이미지 매핑 (signature.images[isSelected].url → .con1 .img img)
     var imgEl = document.querySelector('.con1 .img img');
     if (imgEl) {
-      var imageUrl = null;
-
-      if (sections && sections[0] && sections[0].hero && sections[0].hero.images && sections[0].hero.images.length > 0) {
-        var heroImages = sections[0].hero.images;
-        // 마지막 이미지 가져오기
-        var lastImg = heroImages[heroImages.length - 1];
-        if (lastImg && lastImg.url) {
-          imageUrl = lastImg.url;
+      var images = (signature && signature.images) || [];
+      if (images.length > 0) {
+        var selectedImg = images.find(function(img) { return img.isSelected; });
+        var imageUrl = (selectedImg && selectedImg.url) || (images[0] && images[0].url);
+        if (imageUrl) {
+          imgEl.src = imageUrl;
+        } else {
+          ImageHelpers.applyPlaceholder(imgEl);
         }
-      }
-
-      if (imageUrl) {
-        imgEl.src = imageUrl;
       } else {
         ImageHelpers.applyPlaceholder(imgEl);
       }
@@ -121,6 +118,9 @@ var MainMapper = {
     if (!sections || !sections[0] || !sections[0].about) return;
 
     var aboutArray = sections[0].about;
+    // 태그 소스: 백오피스가 about 이미지 description은 안 보내고 hero 이미지 description만 보내므로,
+    // index con2와 동일하게 hero.images description을 태그로 사용한다.
+    var heroImages = (sections[0].hero && sections[0].hero.images) || [];
     var con2Template = document.querySelector('.con2');
     if (!con2Template) return;
 
@@ -160,18 +160,18 @@ var MainMapper = {
         titleEl.textContent = aboutItem.title;
       }
 
-      // 태그 매핑 (about.images[] - description 있는 이미지 최대 3개)
+      // 태그 매핑 (hero.images[] description - 최대 3개, index con2와 동일 소스)
       var subTitle = con2.querySelector('.subTitle');
       if (subTitle) {
         subTitle.innerHTML = '';
 
         // description 1개라도 입력되었는지 확인
-        var hasDescription = aboutItem.images && aboutItem.images.some(function(img) { return img && img.description; });
+        var hasDescription = heroImages.some(function(img) { return img && img.description; });
 
         if (hasDescription) {
           // 입력된 태그만 표시 (배열 전체 순회, 최대 3개까지 - index-mapper와 동일 로직)
           var tagCount = 0;
-          aboutItem.images.forEach(function(img) {
+          heroImages.forEach(function(img) {
             if (tagCount < 3 && img && img.description) {
               var tag = document.createElement('div');
               tag.className = 'tag';
@@ -262,17 +262,27 @@ var MainMapper = {
     });
   },
 
-  // CON5: Closing 섹션 매핑
+  // CON5: Closing 섹션 매핑 (index의 closing 블록을 그대로 사용: pages.index.sections[0].closing.images[isSelected])
   mapClosingSection: function(data) {
-    // 이미지 매핑 (property.images[0].surrounding[] 중 isSelected 또는 첫 번째 이미지)
+    var sections = data.homepage &&
+                   data.homepage.customFields &&
+                   data.homepage.customFields.pages &&
+                   data.homepage.customFields.pages.index &&
+                   data.homepage.customFields.pages.index.sections;
+
+    var closing = sections && sections[0] && sections[0].closing;
+
+    // 이미지 매핑 (closing.images[]에서 isSelected인 이미지, 없으면 첫 번째)
     var imgEl = document.querySelector('.con5 .img');
     if (imgEl) {
       var imageUrl = null;
-      var cfProperty = data.homepage?.customFields?.property;
-      var surrounding = (cfProperty?.images || []).filter(function(img) { return img.category === 'property_surrounding'; });
-      if (surrounding.length > 0) {
-        var selectedImg = surrounding.find(function(img) { return img.isSelected; });
-        imageUrl = (selectedImg && selectedImg.url) || surrounding[0].url;
+      if (closing && closing.images && closing.images.length > 0) {
+        var selectedImg = closing.images.find(function(img) { return img.isSelected; });
+        if (selectedImg && selectedImg.url) {
+          imageUrl = selectedImg.url;
+        } else if (closing.images[0] && closing.images[0].url) {
+          imageUrl = closing.images[0].url;
+        }
       }
 
       if (imageUrl) {

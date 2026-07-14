@@ -92,37 +92,37 @@ var IndexMapper = {
     }
   },
 
-  // CON1: 숙소 영문명 + 히어로 이미지 매핑
+  // CON1: 핵심메시지 (signature 블록: 타이틀 + 이미지)
   mapCon1Section: function(data) {
-    // 영문명 매핑 (customFields.property.nameEn 우선 → span.travelFont)
-    var engNameEl = document.querySelector('.con1 span.travelFont');
-    var nameEn = HeaderFooterMapper.getPropertyNameEn(data);
-    if (engNameEl && nameEn) {
-      engNameEl.textContent = nameEn;
-    }
-
-    // 이미지 매핑 (customFields.pages.index.sections[0].hero.images[isSelected])
     var sections = data.homepage &&
                    data.homepage.customFields &&
                    data.homepage.customFields.pages &&
                    data.homepage.customFields.pages.index &&
                    data.homepage.customFields.pages.index.sections;
 
-    if (!sections || !sections[0] || !sections[0].hero) return;
+    var signature = sections && sections[0] && sections[0].signature;
 
-    var hero = sections[0].hero;
+    // 타이틀 매핑 (signature.title → span.travelFont)
+    var titleEl = document.querySelector('.con1 span.travelFont');
+    if (titleEl && signature && signature.title) {
+      titleEl.textContent = signature.title;
+    }
+
+    // 이미지 매핑 (signature.images[isSelected].url)
     var imgEl = document.querySelector('[data-index-con1-image]');
+    if (!imgEl) return;
 
-    if (imgEl && hero.images && hero.images.length > 0) {
-      var selectedImg = hero.images.find(function(img) { return img.isSelected; });
-      var imageUrl = (selectedImg && selectedImg.url) || (hero.images[0] && hero.images[0].url);
+    var images = (signature && signature.images) || [];
+    if (images.length > 0) {
+      var selectedImg = images.find(function(img) { return img.isSelected; });
+      var imageUrl = (selectedImg && selectedImg.url) || (images[0] && images[0].url);
 
       if (imageUrl) {
         imgEl.src = imageUrl;
       } else {
         ImageHelpers.applyPlaceholder(imgEl);
       }
-    } else if (imgEl) {
+    } else {
       ImageHelpers.applyPlaceholder(imgEl);
     }
   },
@@ -303,10 +303,11 @@ var IndexMapper = {
     wrapper.innerHTML = '';
 
     roomtypes.forEach(function(rt) {
-      if (!rt.name || !rt.name.trim()) return;
-
       var matched = rooms.find(function(r) { return r.id === rt.id; });
       if (matched && matched.status === 'inactive') return;
+
+      // 객실명: roomtype.name 우선 → rooms[].name → '객실명' (빈 JSON 임시 노출용)
+      var roomName = (rt.name && rt.name.trim()) || (matched && matched.name) || '객실명';
 
       var slide = document.createElement('div');
       slide.className = 'swiper-slide';
@@ -335,7 +336,7 @@ var IndexMapper = {
 
       var tx1 = document.createElement('div');
       tx1.className = 'tx1';
-      tx1.textContent = rt.name || '';
+      tx1.textContent = roomName;
 
       var tx2 = document.createElement('div');
       tx2.className = 'tx2';

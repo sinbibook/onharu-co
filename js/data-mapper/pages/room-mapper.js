@@ -17,7 +17,7 @@ var RoomMapper = {
     var room = this.getMatchedRoom(data, rt);
 
     // MAPPER: roomtypes[current] interior[isSelected] + name
-    this.mapHeroSlides(rt);
+    this.mapHeroSlides(rt, room);
 
     // MAPPER: roomtypes[current](name, images) + rooms[current](bedTypes, roomStructures, usageGuide)
     this.mapRoomDetail(data, rt, room);
@@ -66,6 +66,11 @@ var RoomMapper = {
     return rooms.find(function(r) { return r.id === roomtype.id; }) || null;
   },
 
+  // 객실명 해석: roomtype.name 우선 → rooms[].name → '객실명' (빈 JSON 임시 노출용)
+  resolveRoomName: function(rt, room) {
+    return (rt && rt.name && rt.name.trim()) || (room && room.name) || '객실명';
+  },
+
   // isSelected=true인 이미지를 sortOrder 순으로 반환
   getSelectedImages: function(images) {
     if (!images || !images.length) return [];
@@ -100,8 +105,8 @@ var RoomMapper = {
   },
 
   // Con0: 히어로 슬라이드 (roomtype interior 이미지) + 객실명 (tx1)
-  mapHeroSlides: function(rt) {
-    var name = (rt && rt.name) || '';
+  mapHeroSlides: function(rt, room) {
+    var name = this.resolveRoomName(rt, room);
 
     // 객실명 매핑 (con0 .tx1)
     var tx1El = document.querySelector('.con0 .tx1');
@@ -148,7 +153,7 @@ var RoomMapper = {
 
   // Con6: 객실 상세 정보 (메인 이미지 + 정보)
   mapRoomDetail: function(data, rt, room) {
-    var name = (rt && rt.name) || '';
+    var name = this.resolveRoomName(rt, room);
 
     // 메인 이미지 (con6 .left .img img) - roomtype thumbnail
     var mainImg = document.querySelector('.con6 .left .img img');
@@ -203,7 +208,7 @@ var RoomMapper = {
 
   // Con8: 테이블 매핑 (순서: 객실명, 기준, 최대, 유형, 평형)
   mapTable: function(rt, room) {
-    var name = (rt && rt.name) || '';
+    var name = this.resolveRoomName(rt, room);
 
     var tableTd = document.querySelectorAll('.con8 .price_table.for_pc table.table_default tbody tr td');
     if (tableTd.length >= 5) {
@@ -277,8 +282,9 @@ var RoomMapper = {
     var currentId = currentRt && currentRt.id;
     var self = this;
 
+    // 현재 객실만 제외 (이름 없어도 fallback으로 노출)
     var others = roomtypes.filter(function(rt) {
-      return rt.name && rt.name.trim() && rt.id !== currentId;
+      return rt.id !== currentId;
     });
 
     wrapper.innerHTML = '';
@@ -312,7 +318,7 @@ var RoomMapper = {
 
       var tx1 = document.createElement('div');
       tx1.className = 'tx1';
-      tx1.textContent = rt.name || '';
+      tx1.textContent = self.resolveRoomName(rt, matched);
 
       var tx2 = document.createElement('div');
       tx2.className = 'tx2';
@@ -331,7 +337,9 @@ var RoomMapper = {
   // snb_wrap: 객실 선택 네비게이션 (roomtypes[])
   mapRoomNavigation: function(data, currentRt) {
     var roomtypes = this.getRoomtypes(data);
+    var rooms = (data && data.rooms) || [];
     var currentId = currentRt && currentRt.id;
+    var self = this;
 
     var ul = document.querySelector('[data-room-nav-list]');
     if (!ul) return;
@@ -339,11 +347,12 @@ var RoomMapper = {
     ul.innerHTML = '';
 
     roomtypes.forEach(function(rt) {
-      if (!rt.name || !rt.name.trim()) return;
+      var matched = rooms.find(function(r) { return r.id === rt.id; });
+      var roomName = self.resolveRoomName(rt, matched);
       var li = document.createElement('li');
       var link = document.createElement('a');
       link.href = 'room.html?room_id=' + rt.id;
-      link.textContent = rt.name;
+      link.textContent = roomName;
 
       if (rt.id === currentId) {
         li.className = 'active';

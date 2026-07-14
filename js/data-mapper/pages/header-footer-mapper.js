@@ -168,14 +168,15 @@ var HeaderFooterMapper = {
             depth2.appendChild(layoutLink);
           }
 
-          // 활성화된 객실 추가 (roomtypes 순회, 이름 있는 active 객실만)
+          // 활성화된 객실 추가 (roomtypes 순회, inactive만 제외)
           roomtypes.forEach(function(rt) {
-            if (!rt.name || !rt.name.trim()) return;
             var matched = rooms.find(function(r) { return r.id === rt.id; });
             if (matched && matched.status === 'inactive') return;
+            // 객실명: roomtype.name 우선 → rooms[].name → '객실명' (빈 JSON 임시 노출용)
+            var roomName = (rt.name && rt.name.trim()) || (matched && matched.name) || '객실명';
             var roomLink = document.createElement('a');
             roomLink.href = 'room.html?room_id=' + rt.id;
-            roomLink.textContent = rt.name;
+            roomLink.textContent = roomName;
             depth2.appendChild(roomLink);
           });
         } else if (menu.dataKey === 'facilities' && data.property.facilities) {

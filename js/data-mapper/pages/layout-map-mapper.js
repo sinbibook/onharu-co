@@ -9,7 +9,7 @@ var LayoutMapMapper = {
     // Room Navigation 매핑
     this.mapRoomNavigation(data);
 
-    // MAPPER: homepage.customFields.pages.layoutMap.sections[0].about.title
+    // MAPPER: homepage.customFields.pages.layoutMap.sections[0].hero.title
     this.mapConTitle(data);
 
     // MAPPER: homepage.customFields.pages.layoutMap.sections[0].about.images[].description (3개까지)
@@ -69,13 +69,14 @@ var LayoutMapMapper = {
 
     // room 링크 추가 (roomtypes 순회, 이름 있는 active 객실만)
     roomtypes.forEach(function(rt) {
-      if (!rt.name || !rt.name.trim()) return;
       var matched = rooms.find(function(r) { return r.id === rt.id; });
       if (matched && matched.status === 'inactive') return;
+      // 객실명: roomtype.name 우선 → rooms[].name → '객실명' (빈 JSON 임시 노출용)
+      var roomName = (rt.name && rt.name.trim()) || (matched && matched.name) || '객실명';
       var li = document.createElement('li');
       var link = document.createElement('a');
       link.href = 'room.html?room_id=' + rt.id;
-      link.textContent = rt.name;
+      link.textContent = roomName;
 
       li.appendChild(link);
       ul.appendChild(li);
@@ -88,7 +89,7 @@ var LayoutMapMapper = {
     }
   },
 
-  // Con3: Title 매핑 (homepage.customFields.pages.layoutMap.sections[0].about.title)
+  // Con3: Title 매핑 (homepage.customFields.pages.layoutMap.sections[0].hero.title)
   mapConTitle: function(data) {
     var titleEl = document.querySelector('.con3 .conTitle .title');
     if (!titleEl) return;
@@ -99,45 +100,30 @@ var LayoutMapMapper = {
                     data.homepage.customFields.pages.layoutMap.sections &&
                     data.homepage.customFields.pages.layoutMap.sections[0];
 
-    if (layoutMap && layoutMap.about && layoutMap.about.title) {
-      titleEl.textContent = layoutMap.about.title;
-    }
+    titleEl.textContent = (layoutMap && layoutMap.hero && layoutMap.hero.title) ? layoutMap.hero.title : '';
   },
 
-  // Con3: SubTitle (Tags) 매핑 (layoutMap.about.images[].description → # 기준으로 분리)
+  // Con3: SubTitle (Tags) 매핑 (index와 동일: #숙소한글명 + #객실)
   mapConSubtitle: function(data) {
     var subTitleEl = document.querySelector('.con3 .conTitle .subTitle');
     if (!subTitleEl) return;
 
     subTitleEl.innerHTML = '';
 
-    var layoutMap = data.homepage?.customFields?.pages?.layoutMap?.sections?.[0];
-    var images = layoutMap?.about?.images || [];
-    var tags = [];
-
-    images.forEach(function(img) {
-      if (img && img.description) {
-        img.description.split('#').map(function(s) { return s.trim(); }).filter(Boolean).forEach(function(t) {
-          tags.push(t);
-        });
-      }
-    });
-
-    if (tags.length) {
-      tags.forEach(function(tag) {
-        var tagEl = document.createElement('div');
-        tagEl.className = 'tag';
-        tagEl.textContent = '#' + tag;
-        subTitleEl.appendChild(tagEl);
-      });
-    } else {
-      for (var i = 0; i < 3; i++) {
-        var tagEl = document.createElement('div');
-        tagEl.className = 'tag';
-        tagEl.textContent = '#이미지설명';
-        subTitleEl.appendChild(tagEl);
-      }
+    // 숙소한글명 태그
+    var nameKr = HeaderFooterMapper.getPropertyName(data);
+    if (nameKr) {
+      var tag1 = document.createElement('div');
+      tag1.className = 'tag';
+      tag1.textContent = '#' + nameKr;
+      subTitleEl.appendChild(tag1);
     }
+
+    // 객실 태그 (하드코딩)
+    var tag2 = document.createElement('div');
+    tag2.className = 'tag';
+    tag2.textContent = '#객실';
+    subTitleEl.appendChild(tag2);
   },
 
   // Con3: Room Preview Swiper (객실명/이미지=roomtypes, 설명/status=rooms id 매칭)
@@ -154,10 +140,11 @@ var LayoutMapMapper = {
     if (roomtypes.length === 0) return;
 
     roomtypes.forEach(function(rt) {
-      if (!rt.name || !rt.name.trim()) return;
-
       var matched = rooms.find(function(r) { return r.id === rt.id; });
       if (matched && matched.status === 'inactive') return;
+
+      // 객실명: roomtype.name 우선 → rooms[].name → '객실명' (빈 JSON 임시 노출용)
+      var roomName = (rt.name && rt.name.trim()) || (matched && matched.name) || '객실명';
 
       var slide = document.createElement('div');
       slide.className = 'swiper-slide';
@@ -187,11 +174,11 @@ var LayoutMapMapper = {
 
       var tx1 = document.createElement('div');
       tx1.className = 'tx1';
-      tx1.textContent = rt.name || '';
+      tx1.textContent = roomName;
 
       var tx2 = document.createElement('div');
       tx2.className = 'tx2';
-      tx2.textContent = (matched && (matched.description || matched.roomInfo)) || '';
+      tx2.textContent = HeaderFooterMapper.buildRoomTypeDetail(matched);
 
       txDiv.appendChild(tx1);
       txDiv.appendChild(tx2);
