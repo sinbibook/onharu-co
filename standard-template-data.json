@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.11.0",
-    "generatedAt": "2026-07-14T03:00:46.831439755Z",
+    "version": "1.12.0",
+    "generatedAt": "2026-07-14T03:01:19.365911980Z",
     "templateType": "trip_l",
     "propertyId": "d7cc2947-8744-4e34-ac08-fe100d9bf567",
     "homepageId": "c18f2b14-16f5-49b6-b7d4-f559ad5632a4"
@@ -20,7 +20,7 @@
     "checkin": "14:00",
     "checkout": "12:00",
     "checkInOutInfo": "[입퇴실안내]\n- 입실: 14시 00분\n- 퇴실: 12시 00분\n- 입실 마감시간: 23시 00분",
-    "usageGuide": "[입퇴실안내]\n- 입실: 14시 00분\n- 퇴실: 12시 00분\n- 입실 마감시간: 23시 00분\n\n[개별바베큐]\n- 이용 객실: 전 객실\n- 이용 장소: 개별 객실 앞\n- 바베큐 형태: 숯불\n- 제공 구성: 숯, 그릴, 채소(상추/깻잎) 등\n※ 펜션 주인이 직접 정성껏 재배한 채소(상추, 깻잎)를 무료로 제공해 드립니다.\n- 이용 요금: 4인 20,000원(1박기준/현장결제)\n- 신청 시간: 제한없음\n- 이용 시간: 제한없음\n- 우천 시: 이용 가능\n- 동계 시: 이용 가능\n- 강풍 시: 이용 불가\n※ 바베큐 이용 시 원활한 준비를 위해 이용 1시간 전까지 사전 요청 부탁드립니다.\n\n[공용수영장]\n- 이용 객실: 전 객실\n- 운영 계절: 하절기\n- 운영 기간: 6월 1일 ~ 9월 30일\n- 온도: 냉수\n- 이용 요금: 무료\n- 이용 시간: 14:00 ~ 22:00\n- 이용 복장: 제한없음\n- 수영장 크기: 4m x 6m\n\n[부대시설]\n[객실에서 즐기는 노래방]\n- 이용 요금: 50,000원 (1박기준/현장결제)\n- 이용 시간: 입실 후 ~ 21:00\n※ 요청 시 이동식 노래방 기기를 객실로 제공해 드립니다.\n※ 이용을 원하시는 경우 펜션으로 문의해 주시기 바랍니다.\n\n[펜션 내 음식점]\n- 메뉴: 백숙, 도리탕. 육개장 등\n※ 식사 이용 관련 사항은 펜션으로 문의해 주시기 바랍니다.\n\n[편의 및 주변 시설]\n- 와이파이 보유\n- 화재감지기 보유\n- 일산화탄소감지기 보유\n- 엘레베이터 미보유\n- 인근 200m 이내 명지산 계곡 (수영, 낚시 가능)\n\n[주차장]\n- 주차장 보유\n- 이용 요금: 무료\n- 주차 대수: 총 10대\n- 전기차 충전기 이용 불가",
+    "usageGuide": "[입퇴실안내]\n- 입실: 14시 00분\n- 퇴실: 12시 00분\n- 입실 마감시간: 23시 00분\n\n[인원추가정보]\n[연령기준]\n- 성인: 18세 이상\n- 아동: 24개월 이상~18세 미만\n- 유아: 24개월 미만\n\n[추가요금]\n- 결제방법: 후결제(현장결제)\n\n[개별바베큐]\n- 이용 객실: 전 객실\n- 이용 장소: 개별 객실 앞\n- 바베큐 형태: 숯불\n- 제공 구성: 숯, 그릴, 채소(상추/깻잎) 등\n※ 펜션 주인이 직접 정성껏 재배한 채소(상추, 깻잎)를 무료로 제공해 드립니다.\n- 이용 요금: 4인 20,000원(1박기준/현장결제)\n- 신청 시간: 제한없음\n- 이용 시간: 제한없음\n- 우천 시: 이용 가능\n- 동계 시: 이용 가능\n- 강풍 시: 이용 불가\n※ 바베큐 이용 시 원활한 준비를 위해 이용 1시간 전까지 사전 요청 부탁드립니다.\n\n[공용수영장]\n- 이용 객실: 전 객실\n- 운영 계절: 하절기\n- 운영 기간: 6월 1일 ~ 9월 30일\n- 온도: 냉수\n- 이용 요금: 무료\n- 이용 시간: 14:00 ~ 22:00\n- 이용 복장: 제한없음\n- 수영장 크기: 4m x 6m\n\n[부대시설]\n[객실에서 즐기는 노래방]\n- 이용 요금: 50,000원 (1박기준/현장결제)\n- 이용 시간: 입실 후 ~ 21:00\n※ 요청 시 이동식 노래방 기기를 객실로 제공해 드립니다.\n※ 이용을 원하시는 경우 펜션으로 문의해 주시기 바랍니다.\n\n[펜션 내 음식점]\n- 메뉴: 백숙, 도리탕. 육개장 등\n※ 식사 이용 관련 사항은 펜션으로 문의해 주시기 바랍니다.\n\n[편의 및 주변 시설]\n- 와이파이 보유\n- 화재감지기 보유\n- 일산화탄소감지기 보유\n- 엘레베이터 미보유\n- 인근 200m 이내 명지산 계곡 (수영, 낚시 가능)\n\n[주차장]\n- 주차장 보유\n- 이용 요금: 무료\n- 주차 대수: 총 10대\n- 전기차 충전기 이용 불가",
     "reservationGuide": "",
     "province": "도/시",
     "city": "시/군/구",
@@ -301,8 +301,90 @@
     },
     "images": [
       {
-        "thumbnail": [ ],
-        "exterior": [ ],
+        "thumbnail": [
+          {
+            "id": "7828fa34-825d-47a8-8323-3b4a750c99be",
+            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/14/Ca3FLqU6l0ck.jpg",
+            "sortOrder": 11,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          }
+        ],
+        "exterior": [
+          {
+            "id": "39cd8f28-2983-4a22-916f-f58eebbf7621",
+            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/14/Qw8EILept7Oa.jpg",
+            "sortOrder": 12,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "8df78f2d-c3cd-43b5-83bc-52309a39b5c9",
+            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/14/Yt0AViNxsR9j.jpg",
+            "sortOrder": 13,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "8ed292e8-2676-40f7-ab1c-e2a2bb12e76b",
+            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/14/PflVQqAF98LY.jpg",
+            "sortOrder": 14,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "d17d8d4f-dda5-4a52-91e3-326dd29bfb2a",
+            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/14/nJ2NbKFkLQIp.jpg",
+            "sortOrder": 15,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "4563bb06-0a70-4133-9c6e-20fe9f8453f3",
+            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/14/eSJ0s2GOh7I8.jpg",
+            "sortOrder": 16,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "10374b2c-c63a-4e76-99b7-915c71d4c0be",
+            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/14/3oP820sG6Jht.jpg",
+            "sortOrder": 17,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "eeb41e06-7fe9-4ee7-9c8b-a0b652ce4744",
+            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/14/K3sTbcXOCpx7.jpg",
+            "sortOrder": 18,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "bd54d5ea-d7ee-46c6-87ec-8b9729b956d4",
+            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/14/nQSjFX3B5OE9.jpg",
+            "sortOrder": 19,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          },
+          {
+            "id": "0a53e6f2-97ce-47da-98fe-49282664c4e3",
+            "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/14/MAt5BalYb4Og.jpg",
+            "sortOrder": 20,
+            "description": "",
+            "isSelected": true,
+            "blockId": null
+          }
+        ],
         "surrounding": [ ],
         "commonArea": [ ]
       }
@@ -835,6 +917,26 @@
               {
                 "hero": {
                   "title": "맛있는 식사와 다양한 즐길 거리가 어우러져\n머무는 시간까지 더욱 특별한 추억으로 이어집니다.\n\n ※ 자세한 내용은 이용안내 페이지 참고 부탁드립니다.\n",
+                  "images": [ ]
+                },
+                "about": {
+                  "title": "",
+                  "images": [ ]
+                },
+                "experience": {
+                  "features": [ ],
+                  "additionalInfos": [ ],
+                  "benefits": [ ]
+                }
+              }
+            ]
+          },
+          {
+            "id": "da2185b1-3a7f-4e28-a08b-4bf77eb0364c",
+            "sections": [
+              {
+                "hero": {
+                  "title": "머무는 모든 순간이 편안하게 이어질 수 있도록\n세심한 준비로 공간의 완성도를 더했습니다.\n부담 없이 쉬어갈 수 있는 시간을 제공합니다.\n\n ※ 자세한 내용은 이용안내 페이지 참고 부탁드립니다.\n\n",
                   "images": [ ]
                 },
                 "about": {
