@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.50.0",
-    "generatedAt": "2026-07-20T02:53:58.023608983Z",
+    "version": "1.51.0",
+    "generatedAt": "2026-07-20T05:38:58.712759204Z",
     "templateType": "trip_l",
     "propertyId": "d7cc2947-8744-4e34-ac08-fe100d9bf567",
     "homepageId": "c18f2b14-16f5-49b6-b7d4-f559ad5632a4"
@@ -949,7 +949,7 @@
                     "id": "2cb6d377-e082-41fc-87ce-0f4591211c2b",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/index_hero/1783995994943-zekapheai7.jpg",
                     "sortOrder": 2,
-                    "description": "여유로운 시간",
+                    "description": "신축 펜션",
                     "isSelected": true,
                     "blockId": null
                   },
@@ -1112,7 +1112,7 @@
                     "id": "c289428c-bf5d-4f32-9353-1f0a371c9889",
                     "url": "https://jlnjajtcnyqupfaqjerz.supabase.co/storage/v1/object/public/app-images/homepage/c18f2b14-16f5-49b6-b7d4-f559ad5632a4/main_hero/1783995995739-eofagob17a.jpg",
                     "sortOrder": 2,
-                    "description": "여유로운 시간",
+                    "description": "신축 펜션",
                     "isSelected": true,
                     "blockId": null
                   },
